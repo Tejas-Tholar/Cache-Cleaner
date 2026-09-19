@@ -93,3 +93,6 @@ Open `preview/index.html` in any browser or launch a local preview server:
 ```bash
 npx serve preview
 ```
+
+##Steps to install on Android
+In the main file, you can see CacheCleaner.apk. Download it on your phone, after downloading install it and run it. Give all necessary permissions, and then you are good to go!!
