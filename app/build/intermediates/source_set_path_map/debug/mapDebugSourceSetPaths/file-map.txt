@@ -1,0 +1,39 @@
+com.cachecleaner.app-core-runtime-2.2.0-0 C:\Users\tejas\.gradle\caches\transforms-4\0f1614bfd7218f7cc8b3806243bc25eb\transformed\core-runtime-2.2.0\res
+com.cachecleaner.app-jetified-appcompat-resources-1.7.0-1 C:\Users\tejas\.gradle\caches\transforms-4\0fbc0547ee432684f41ed71793e4ec12\transformed\jetified-appcompat-resources-1.7.0\res
+com.cachecleaner.app-recyclerview-1.3.2-2 C:\Users\tejas\.gradle\caches\transforms-4\1e81649df0a16136f1747a4602d38a38\transformed\recyclerview-1.3.2\res
+com.cachecleaner.app-jetified-core-ktx-1.13.1-3 C:\Users\tejas\.gradle\caches\transforms-4\20851294164f9851add2425cd3904d84\transformed\jetified-core-ktx-1.13.1\res
+com.cachecleaner.app-jetified-startup-runtime-1.1.1-4 C:\Users\tejas\.gradle\caches\transforms-4\27477e82efdd88fa567a1df93e9cf04a\transformed\jetified-startup-runtime-1.1.1\res
+com.cachecleaner.app-jetified-annotation-experimental-1.4.0-5 C:\Users\tejas\.gradle\caches\transforms-4\3dc01c80037d774d231d42fbd8fe3bfa\transformed\jetified-annotation-experimental-1.4.0\res
+com.cachecleaner.app-drawerlayout-1.1.1-6 C:\Users\tejas\.gradle\caches\transforms-4\4869434f4fb18284819f87ade8374fac\transformed\drawerlayout-1.1.1\res
+com.cachecleaner.app-jetified-emoji2-views-helper-1.3.0-7 C:\Users\tejas\.gradle\caches\transforms-4\48f7c2bb011b41f06b8aeef0ea8d2d18\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.cachecleaner.app-jetified-lifecycle-runtime-ktx-release-8 C:\Users\tejas\.gradle\caches\transforms-4\5317d5e7aa433925e0cf18a51c75a3d7\transformed\jetified-lifecycle-runtime-ktx-release\res
+com.cachecleaner.app-lifecycle-livedata-core-2.8.4-9 C:\Users\tejas\.gradle\caches\transforms-4\608adb11a62641dae37324548921ab1a\transformed\lifecycle-livedata-core-2.8.4\res
+com.cachecleaner.app-jetified-profileinstaller-1.3.1-10 C:\Users\tejas\.gradle\caches\transforms-4\60c1e9f55846aa294b09232989deffb7\transformed\jetified-profileinstaller-1.3.1\res
+com.cachecleaner.app-jetified-emoji2-1.3.0-11 C:\Users\tejas\.gradle\caches\transforms-4\6143d948c23c0ac5e4558e8e63cfcb33\transformed\jetified-emoji2-1.3.0\res
+com.cachecleaner.app-transition-1.5.0-12 C:\Users\tejas\.gradle\caches\transforms-4\616a26ab4858078da45709214d0eddf5\transformed\transition-1.5.0\res
+com.cachecleaner.app-jetified-lifecycle-runtime-release-13 C:\Users\tejas\.gradle\caches\transforms-4\660ffc47982e1b332dad39ce8f1b065a\transformed\jetified-lifecycle-runtime-release\res
+com.cachecleaner.app-jetified-lifecycle-viewmodel-savedstate-2.8.4-14 C:\Users\tejas\.gradle\caches\transforms-4\6c81a9b5bb75f958282e859d761aba61\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.4\res
+com.cachecleaner.app-jetified-customview-poolingcontainer-1.0.0-15 C:\Users\tejas\.gradle\caches\transforms-4\6dcea6b8aa717ca990f00a5315f828a3\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.cachecleaner.app-jetified-savedstate-1.2.1-16 C:\Users\tejas\.gradle\caches\transforms-4\6e1d41613ffed4f3cce95f7111cff03f\transformed\jetified-savedstate-1.2.1\res
+com.cachecleaner.app-jetified-lifecycle-viewmodel-release-17 C:\Users\tejas\.gradle\caches\transforms-4\7a224b0e497adf45988bf69de3742cb9\transformed\jetified-lifecycle-viewmodel-release\res
+com.cachecleaner.app-appcompat-1.7.0-18 C:\Users\tejas\.gradle\caches\transforms-4\7bb4aaaa05de86d5d7aab19cd88e3b50\transformed\appcompat-1.7.0\res
+com.cachecleaner.app-jetified-viewpager2-1.1.0-beta02-19 C:\Users\tejas\.gradle\caches\transforms-4\7cac42cbe9ee0d899bcd5a50fe2df8e6\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.cachecleaner.app-lifecycle-livedata-2.8.4-20 C:\Users\tejas\.gradle\caches\transforms-4\8128784a3ebedd6d42e293560cb8e82f\transformed\lifecycle-livedata-2.8.4\res
+com.cachecleaner.app-constraintlayout-2.1.4-21 C:\Users\tejas\.gradle\caches\transforms-4\81efd4f696866364d11e51c5f909c880\transformed\constraintlayout-2.1.4\res
+com.cachecleaner.app-cardview-1.0.0-22 C:\Users\tejas\.gradle\caches\transforms-4\873fb9c46f1fd154140d915e31308144\transformed\cardview-1.0.0\res
+com.cachecleaner.app-fragment-1.5.4-23 C:\Users\tejas\.gradle\caches\transforms-4\8ee30e409c24a7faedf56a12cf0ceca8\transformed\fragment-1.5.4\res
+com.cachecleaner.app-jetified-lifecycle-viewmodel-ktx-2.8.4-24 C:\Users\tejas\.gradle\caches\transforms-4\adcea25dca220d00fc0bb4f4ee682fe6\transformed\jetified-lifecycle-viewmodel-ktx-2.8.4\res
+com.cachecleaner.app-jetified-lifecycle-process-2.8.4-25 C:\Users\tejas\.gradle\caches\transforms-4\c18474f8083793f1af779adaaf32824f\transformed\jetified-lifecycle-process-2.8.4\res
+com.cachecleaner.app-core-1.13.1-26 C:\Users\tejas\.gradle\caches\transforms-4\c1e340abda283ca6036575aab6bf153c\transformed\core-1.13.1\res
+com.cachecleaner.app-swiperefreshlayout-1.1.0-27 C:\Users\tejas\.gradle\caches\transforms-4\cfebae8e56a59e554a805ab8cca0ccde\transformed\swiperefreshlayout-1.1.0\res
+com.cachecleaner.app-material-1.12.0-28 C:\Users\tejas\.gradle\caches\transforms-4\ddd915be85539511167c834bddc23932\transformed\material-1.12.0\res
+com.cachecleaner.app-jetified-activity-1.8.0-29 C:\Users\tejas\.gradle\caches\transforms-4\de59692a6b15cbe5b7b35db59a8e7acd\transformed\jetified-activity-1.8.0\res
+com.cachecleaner.app-coordinatorlayout-1.1.0-30 C:\Users\tejas\.gradle\caches\transforms-4\eaf4339f64fad131943279abea05b24d\transformed\coordinatorlayout-1.1.0\res
+com.cachecleaner.app-jetified-lifecycle-livedata-core-ktx-2.8.4-31 C:\Users\tejas\.gradle\caches\transforms-4\f026f32ae55c3142c33173c0b1507a2c\transformed\jetified-lifecycle-livedata-core-ktx-2.8.4\res
+com.cachecleaner.app-pngs-32 C:\Users\tejas\Desktop\Cache Cleaner\app\build\generated\res\pngs\debug
+com.cachecleaner.app-resValues-33 C:\Users\tejas\Desktop\Cache Cleaner\app\build\generated\res\resValues\debug
+com.cachecleaner.app-packageDebugResources-34 C:\Users\tejas\Desktop\Cache Cleaner\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.cachecleaner.app-packageDebugResources-35 C:\Users\tejas\Desktop\Cache Cleaner\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.cachecleaner.app-debug-36 C:\Users\tejas\Desktop\Cache Cleaner\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.cachecleaner.app-debug-37 C:\Users\tejas\Desktop\Cache Cleaner\app\src\debug\res
+com.cachecleaner.app-main-38 C:\Users\tejas\Desktop\Cache Cleaner\app\src\main\res

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cache Cleaner Mobile App Simulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="workspace-wrapper">
+    <!-- Left Sidebar: Controls & Live Info -->
+    <aside class="control-panel">
+      <div class="brand">
+        <div class="brand-badge">⚡ Native Android (Kotlin)</div>
+        <h1>Cache Cleaner</h1>
+        <p class="subtitle">Mobile Application Simulator &amp; Live Architecture Demo</p>
+      </div>
+
+      <div class="panel-card">
+        <h3>🚀 Simulation Controls</h3>
+        <div class="button-group">
+          <button id="ctrlRescan" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.19"/></svg>
+            Rescan Apps
+          </button>
+          <button id="ctrlReset" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            Reset Cache Data
+          </button>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <h3>⚙️ Android Architecture Highlights</h3>
+        <ul class="feature-list">
+          <li>
+            <strong>Accessibility Automation</strong>
+            <span>SD Maid / CCleaner method navigating System Settings to clear other apps' caches.</span>
+          </li>
+          <li>
+            <strong>StorageStatsManager API</strong>
+            <span>Direct native queries for exact app bytecode, data, and cache footprints.</span>
+          </li>
+          <li>
+            <strong>Shared Storage Sweeper</strong>
+            <span>Deep cleanup for orphaned <code>.tmp</code>, <code>.log</code>, and thumbnail files.</span>
+          </li>
+          <li>
+            <strong>1-Tap Deep Link</strong>
+            <span>Direct jump buttons to any app's native Android storage settings.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="panel-card stats-overview">
+        <h3>📊 Real-time Stats</h3>
+        <div class="stat-row">
+          <span>Total Cache Detected:</span>
+          <strong id="statTotalCache">3.84 GB</strong>
+        </div>
+        <div class="stat-row">
+          <span>Selected to Clean:</span>
+          <strong id="statSelectedCache" class="highlight">3.84 GB</strong>
+        </div>
+        <div class="stat-row">
+          <span>Installed Apps Scanned:</span>
+          <strong id="statAppsCount">10 Apps</strong>
+        </div>
+        <div class="stat-row">
+          <span>Cleaning Engine:</span>
+          <span class="badge active">Accessibility Service</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Center: Mobile Device Viewport -->
+    <main class="device-container">
+      <div class="mobile-frame">
+        <div class="phone-speaker"></div>
+        <div class="phone-camera"></div>
+
+        <!-- Android Status Bar -->
+        <div class="status-bar">
+          <span class="status-time" id="statusClock">12:30</span>
+          <div class="status-icons">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L12 22l7.03-4.39C20.26 16.07 21 14.12 21 12c0-4.97-4.03-9-9-9z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4z"/></svg>
+          </div>
+        </div>
+
+        <!-- App Screen -->
+        <div class="app-screen">
+          <!-- Top App Bar -->
+          <header class="app-header">
+            <div class="header-left">
+              <div class="app-icon-small">⚡</div>
+              <div>
+                <h2>Cache Cleaner</h2>
+                <span class="device-tag">Android 14 • Ready</span>
+              </div>
+            </div>
+            <button id="btnHeaderSettings" class="icon-btn" title="Settings">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </button>
+          </header>
+
+          <!-- Storage Breakdown Card -->
+          <div class="storage-card">
+            <div class="storage-meta">
+              <span class="label">JUNK &amp; APP CACHE</span>
+              <div class="storage-badge" id="storageBadge">Safe to Clean</div>
+            </div>
+            <div class="cache-amount" id="displayTotalCache">3.84 <span>GB</span></div>
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" id="cacheProgressBar" style="width: 78%;"></div>
+            </div>
+            <div class="storage-footer">
+              <span id="displaySelectedCount">10 apps selected</span>
+              <span id="displaySelectedSize" class="selected-val">Selected: 3.84 GB</span>
+            </div>
+          </div>
+
+          <!-- Tabs (App Cache vs Shared Storage) -->
+          <div class="tabs-nav">
+            <button class="tab-btn active" id="tabApps">
+              <span>App Caches</span>
+              <span class="tab-count" id="tabAppCount">10</span>
+            </button>
+            <button class="tab-btn" id="tabJunk">
+              <span>Shared Junk</span>
+              <span class="tab-count" id="tabJunkCount">5</span>
+            </button>
+          </div>
+
+          <!-- Controls Bar -->
+          <div class="action-bar">
+            <button id="btnSelectAll" class="btn-chip">
+              <span class="chip-checkbox checked" id="chipCheckIcon">✓</span>
+              <span id="selectAllText">Deselect All</span>
+            </button>
+            <div class="action-spacer"></div>
+            <button id="btnSortOrder" class="btn-chip btn-sort">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M7 12h10M10 18h4"/></svg>
+              <span id="sortOrderText">Size ↓</span>
+            </button>
+          </div>
+
+          <!-- App List Scrollable View -->
+          <div class="app-list-view" id="appListContainer">
+            <!-- App items generated dynamically by JS -->
+          </div>
+
+          <!-- Junk List Scrollable View (Hidden by default) -->
+          <div class="app-list-view hidden" id="junkListContainer">
+            <!-- Junk items generated dynamically by JS -->
+          </div>
+
+          <!-- Floating Bottom Action Bar -->
+          <div class="bottom-action-container">
+            <button id="btnStartAutoClean" class="clean-cta-button">
+              <div class="btn-sparkle"></div>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+              <span>Auto Clean Selected (<span id="btnCleanSize">3.84 GB</span>)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Android Navigation Gesture Bar -->
+        <div class="android-nav-bar">
+          <div class="nav-pill"></div>
+        </div>
+
+        <!-- Automated Accessibility Cleaning Modal / Overlay -->
+        <div class="clean-overlay hidden" id="cleanModal">
+          <div class="modal-card">
+            <div class="modal-glow"></div>
+            <div class="pulse-loader">
+              <div class="pulse-ring"></div>
+              <div class="pulse-ring delay-1"></div>
+              <div class="pulse-center">🧹</div>
+            </div>
+
+            <h3 id="modalTitle">Automating Cache Cleanup</h3>
+            <p id="modalSub">Accessibility Service clearing system caches…</p>
+
+            <div class="current-target-card" id="modalTargetApp">
+              <div class="target-icon" id="modalAppIcon">📱</div>
+              <div class="target-details">
+                <strong id="modalAppName">Instagram</strong>
+                <span id="modalAppPkg">com.instagram.android</span>
+              </div>
+              <div class="target-size" id="modalAppCache">840 MB</div>
+            </div>
+
+            <div class="modal-progress-track">
+              <div class="modal-progress-bar" id="modalProgressBar" style="width: 0%;"></div>
+            </div>
+            
+            <div class="modal-stats">
+              <span id="modalProgressCount">App 1 of 10</span>
+              <span id="modalFreedBytes" class="freed-text">Freed: 0 MB</span>
+            </div>
+
+            <div class="terminal-mini-log" id="modalLog">
+              <div class="log-line">▸ Initialized CacheCleanerAccessibilityService</div>
+              <div class="log-line">▸ Opening App Details Settings…</div>
+            </div>
+
+            <button id="btnCancelCleaning" class="btn-modal-cancel">Cancel Cleaning</button>
+          </div>
+        </div>
+
+        <!-- Simulated Android Settings Sheet for Manual 1-Tap Jump -->
+        <div class="settings-sheet hidden" id="settingsSheet">
+          <div class="sheet-header">
+            <button id="btnCloseSheet" class="btn-back">←</button>
+            <span>App Info &amp; Storage</span>
+          </div>
+          <div class="sheet-body">
+            <div class="sheet-app-header">
+              <div class="sheet-app-icon" id="sheetAppIcon">📱</div>
+              <h4 id="sheetAppName">Instagram</h4>
+              <p id="sheetAppPkg">Version 315.0.0</p>
+            </div>
+            <div class="sheet-section">
+              <div class="sheet-row">
+                <span>App size</span>
+                <strong id="sheetAppSize">142 MB</strong>
+              </div>
+              <div class="sheet-row">
+                <span>User data</span>
+                <strong id="sheetDataSize">620 MB</strong>
+              </div>
+              <div class="sheet-row highlight-row">
+                <span>Cache</span>
+                <strong id="sheetCacheSize" class="cache-highlight">840 MB</strong>
+              </div>
+              <div class="sheet-row total-row">
+                <span>Total</span>
+                <strong id="sheetTotalSize">1.60 GB</strong>
+              </div>
+            </div>
+            <div class="sheet-actions">
+              <button id="btnManualClearCache" class="btn-sheet-action">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/></svg>
+                Clear Cache
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

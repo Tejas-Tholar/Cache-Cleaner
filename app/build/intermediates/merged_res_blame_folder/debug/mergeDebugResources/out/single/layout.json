@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.cachecleaner.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.cachecleaner.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cachecleaner.app-mergeDebugResources-35:/layout/item_app_cache.xml",
+        "source": "com.cachecleaner.app-main-38:/layout/item_app_cache.xml"
+    },
+    {
+        "merged": "com.cachecleaner.app-mergeDebugResources-35:/layout/dialog_cleaning_progress.xml",
+        "source": "com.cachecleaner.app-main-38:/layout/dialog_cleaning_progress.xml"
+    }
+]

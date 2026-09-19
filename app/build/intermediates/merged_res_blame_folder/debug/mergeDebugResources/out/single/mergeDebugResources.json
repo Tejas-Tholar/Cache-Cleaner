@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.cachecleaner.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.cachecleaner.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cachecleaner.app-debug-36:/layout_item_app_cache.xml.flat",
+        "source": "com.cachecleaner.app-main-38:/layout/item_app_cache.xml"
+    },
+    {
+        "merged": "com.cachecleaner.app-debug-36:/xml_accessibility_service_config.xml.flat",
+        "source": "com.cachecleaner.app-main-38:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.cachecleaner.app-debug-36:/layout_dialog_cleaning_progress.xml.flat",
+        "source": "com.cachecleaner.app-main-38:/layout/dialog_cleaning_progress.xml"
+    },
+    {
+        "merged": "com.cachecleaner.app-debug-36:/drawable_ic_launcher.xml.flat",
+        "source": "com.cachecleaner.app-main-38:/drawable/ic_launcher.xml"
+    }
+]
